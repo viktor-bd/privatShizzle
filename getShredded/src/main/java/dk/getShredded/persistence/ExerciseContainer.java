@@ -1,4 +1,6 @@
-package dk.model;
+package dk.getShredded.persistence;
+
+import dk.getShredded.model.Exercise;
 
 import java.util.ArrayList;
 

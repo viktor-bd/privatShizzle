@@ -1,4 +1,4 @@
-package dk.model;
+package dk.getShredded.persistence;
 
 public interface containerIF<T, Key> {
     public void add(T item);

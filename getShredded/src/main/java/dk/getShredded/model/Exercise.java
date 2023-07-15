@@ -1,17 +1,17 @@
-package dk.model;
+package dk.getShredded.model;
 
 import java.util.List;
 
 public class Exercise {
     private String name;
-    private List sets;
+
     private int uniqueID;
 
 
-    public Exercise(String name, int uniqueID, List sets) {
+    public Exercise(String name, int uniqueID) {
         this.name = name;
         this.uniqueID = uniqueID;
-        this.sets = sets;
+
     }
 
     public int getUniqueID() {
@@ -30,13 +30,7 @@ public class Exercise {
         this.name = name;
     }
 
-    public List getSets() {
-        return sets;
-    }
 
-    public void setSets(List sets) {
-        this.sets = sets;
-    }
 
 
 }
